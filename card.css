@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+}
+
+.container {
+    background-color: #2881a1;
+    color: aliceblue;
+    opacity: .8;
+    width: 20%;
+    min-width: 400px;
+    padding: 2.5rem;
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* --------------------------------------------- */
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(223, 227, 232);
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom > li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    margin: 0 20px;
+    background-color: #333;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+li > a{
+    height: inherit;
+    width: inherit;
+    outline: none;
+    color: beige;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-decoration: none; 
+}
+
+li:hover, li:hover a {
+    background-color: beige;
+    color: #333;
+}
+
+i:hover {
+    color: #333;
+}
+
+#contact {
+    background-color: gray;
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 15px;
+    cursor:pointer;
+    &:hover {
+        background-color: antiquewhite;
+        color: gray;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
